@@ -35,6 +35,8 @@ const generateTable = () => {
       tableRow += `<td contenteditable></td>`;
     }
     table.innerHTML += tableRow;
+
+    //* Displaying Success Message
     Swal.fire({
       position: "center",
       icon: "success",
